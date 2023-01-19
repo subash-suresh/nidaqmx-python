@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "nidaqmx_python_generator"
+version = "0.0.1"
+license = "MIT"
+description = "NI-DAQmx Python API Generator"
+authors = ["NI <opensource@ni.com>"]
+maintainers = ["Zach Hindes <zach.hindes@ni.com>", "Maxx Boehme <maxx.boehme@ni.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+mako = "^1.2"
+
+[tool.poetry.scripts]
+nidaqmx-python-generator = "nidaqmx_python_generator.__main__:main"
+
+[build-system]
+requires = ["poetry>=1.1.12"]
+build-backend = "poetry.masonry.api"

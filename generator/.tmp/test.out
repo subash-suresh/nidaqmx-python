@@ -1,0 +1,773 @@
+
+def AddCDAQSyncConnection():
+    return int32
+def AddGlobalChansToTask():
+    return int32
+def AddNetworkDevice():
+    return int32
+def AreConfiguredCDAQSyncPortsDisconnected():
+    return int32
+def AutoConfigureCDAQSyncConnections():
+    return int32
+def CalculateReversePolyCoeff():
+    return int32
+def CfgAnlgEdgeRefTrig():
+    return int32
+def CfgAnlgEdgeStartTrig():
+    return int32
+def CfgAnlgMultiEdgeRefTrig():
+    return int32
+def CfgAnlgMultiEdgeStartTrig():
+    return int32
+def CfgAnlgWindowRefTrig():
+    return int32
+def CfgAnlgWindowStartTrig():
+    return int32
+def CfgBurstHandshakingTimingExportClock():
+    return int32
+def CfgBurstHandshakingTimingImportClock():
+    return int32
+def CfgChangeDetectionTiming():
+    return int32
+def CfgDigEdgeRefTrig():
+    return int32
+def CfgDigEdgeStartTrig():
+    return int32
+def CfgDigPatternRefTrig():
+    return int32
+def CfgDigPatternStartTrig():
+    return int32
+def CfgHandshakingTiming():
+    return int32
+def CfgImplicitTiming():
+    return int32
+def CfgInputBuffer():
+    return int32
+def CfgOutputBuffer():
+    return int32
+def CfgPipelinedSampClkTiming():
+    return int32
+def CfgSampClkTiming():
+    return int32
+def CfgTimeStartTrig():
+    return int32
+def CfgWatchdogAOExpirStates():
+    return int32
+def CfgWatchdogCOExpirStates():
+    return int32
+def CfgWatchdogDOExpirStates():
+    return int32
+def ClearTEDS():
+    return int32
+def ClearTask():
+    return int32
+def ConfigureLogging():
+    return int32
+def ConfigureTEDS():
+    return int32
+def ConnectTerms():
+    return int32
+def ControlWatchdogTask():
+    return int32
+def CreateAIAccel4WireDCVoltageChan():
+    return int32
+def CreateAIAccelChan():
+    return int32
+def CreateAIAccelChargeChan():
+    return int32
+def CreateAIBridgeChan():
+    return int32
+def CreateAIChargeChan():
+    return int32
+def CreateAICurrentChan():
+    return int32
+def CreateAICurrentRMSChan():
+    return int32
+def CreateAIForceBridgePolynomialChan():
+    return int32
+def CreateAIForceBridgeTableChan():
+    return int32
+def CreateAIForceBridgeTwoPointLinChan():
+    return int32
+def CreateAIForceIEPEChan():
+    return int32
+def CreateAIFreqVoltageChan():
+    return int32
+def CreateAIMicrophoneChan():
+    return int32
+def CreateAIPosEddyCurrProxProbeChan():
+    return int32
+def CreateAIPosLVDTChan():
+    return int32
+def CreateAIPosRVDTChan():
+    return int32
+def CreateAIPressureBridgePolynomialChan():
+    return int32
+def CreateAIPressureBridgeTableChan():
+    return int32
+def CreateAIPressureBridgeTwoPointLinChan():
+    return int32
+def CreateAIRTDChan():
+    return int32
+def CreateAIResistanceChan():
+    return int32
+def CreateAIRosetteStrainGageChan():
+    return int32
+def CreateAIStrainGageChan():
+    return int32
+def CreateAITempBuiltInSensorChan():
+    return int32
+def CreateAIThrmcplChan():
+    return int32
+def CreateAIThrmstrChanIex():
+    return int32
+def CreateAIThrmstrChanVex():
+    return int32
+def CreateAITorqueBridgePolynomialChan():
+    return int32
+def CreateAITorqueBridgeTableChan():
+    return int32
+def CreateAITorqueBridgeTwoPointLinChan():
+    return int32
+def CreateAIVelocityIEPEChan():
+    return int32
+def CreateAIVoltageChan():
+    return int32
+def CreateAIVoltageChanWithExcit():
+    return int32
+def CreateAIVoltageRMSChan():
+    return int32
+def CreateAOCurrentChan():
+    return int32
+def CreateAOFuncGenChan():
+    return int32
+def CreateAOVoltageChan():
+    return int32
+def CreateCIAngEncoderChan():
+    return int32
+def CreateCIAngVelocityChan():
+    return int32
+def CreateCICountEdgesChan():
+    return int32
+def CreateCIDutyCycleChan():
+    return int32
+def CreateCIFreqChan():
+    return int32
+def CreateCIGPSTimestampChan():
+    return int32
+def CreateCILinEncoderChan():
+    return int32
+def CreateCILinVelocityChan():
+    return int32
+def CreateCIPeriodChan():
+    return int32
+def CreateCIPulseChanFreq():
+    return int32
+def CreateCIPulseChanTicks():
+    return int32
+def CreateCIPulseChanTime():
+    return int32
+def CreateCIPulseWidthChan():
+    return int32
+def CreateCISemiPeriodChan():
+    return int32
+def CreateCITwoEdgeSepChan():
+    return int32
+def CreateCOPulseChanFreq():
+    return int32
+def CreateCOPulseChanTicks():
+    return int32
+def CreateCOPulseChanTime():
+    return int32
+def CreateDIChan():
+    return int32
+def CreateDOChan():
+    return int32
+def CreateLinScale():
+    return int32
+def CreateMapScale():
+    return int32
+def CreatePolynomialScale():
+    return int32
+def CreateTEDSAIAccelChan():
+    return int32
+def CreateTEDSAIBridgeChan():
+    return int32
+def CreateTEDSAICurrentChan():
+    return int32
+def CreateTEDSAIForceBridgeChan():
+    return int32
+def CreateTEDSAIForceIEPEChan():
+    return int32
+def CreateTEDSAIMicrophoneChan():
+    return int32
+def CreateTEDSAIPosLVDTChan():
+    return int32
+def CreateTEDSAIPosRVDTChan():
+    return int32
+def CreateTEDSAIPressureBridgeChan():
+    return int32
+def CreateTEDSAIRTDChan():
+    return int32
+def CreateTEDSAIResistanceChan():
+    return int32
+def CreateTEDSAIStrainGageChan():
+    return int32
+def CreateTEDSAIThrmcplChan():
+    return int32
+def CreateTEDSAIThrmstrChanIex():
+    return int32
+def CreateTEDSAIThrmstrChanVex():
+    return int32
+def CreateTEDSAITorqueBridgeChan():
+    return int32
+def CreateTEDSAIVoltageChan():
+    return int32
+def CreateTEDSAIVoltageChanWithExcit():
+    return int32
+def CreateTableScale():
+    return int32
+def CreateTask():
+    return int32
+def CreateWatchdogTimerTask():
+    return int32
+def CreateWatchdogTimerTaskEx():
+    return int32
+def DeleteNetworkDevice():
+    return int32
+def DeleteSavedGlobalChan():
+    return int32
+def DeleteSavedScale():
+    return int32
+def DeleteSavedTask():
+    return int32
+def DeviceSupportsCal():
+    return int32
+def DisableRefTrig():
+    return int32
+def DisableStartTrig():
+    return int32
+def DisconnectTerms():
+    return int32
+def ExportSignal():
+    return int32
+def GetAIChanCalCalDate():
+    return int32
+def GetAIChanCalExpDate():
+    return int32
+def GetAnalogPowerUpStates():
+    return int32
+def GetAnalogPowerUpStatesWithOutputType():
+    return int32
+def GetArmStartTrigTimestampVal():
+    return int32
+def GetArmStartTrigTrigWhen():
+    return int32
+def GetAutoConfiguredCDAQSyncConnections():
+    return int32
+def GetBufferAttributeUInt32():
+    return int32
+def GetCalInfoAttributeBool():
+    return int32
+def GetCalInfoAttributeDouble():
+    return int32
+def GetCalInfoAttributeString():
+    return int32
+def GetCalInfoAttributeUInt32():
+    return int32
+def GetChanAttributeBool():
+    return int32
+def GetChanAttributeDouble():
+    return int32
+def GetChanAttributeDoubleArray():
+    return int32
+def GetChanAttributeInt32():
+    return int32
+def GetChanAttributeString():
+    return int32
+def GetChanAttributeUInt32():
+    return int32
+def GetDeviceAttributeBool():
+    return int32
+def GetDeviceAttributeDouble():
+    return int32
+def GetDeviceAttributeDoubleArray():
+    return int32
+def GetDeviceAttributeInt32():
+    return int32
+def GetDeviceAttributeInt32Array():
+    return int32
+def GetDeviceAttributeString():
+    return int32
+def GetDeviceAttributeUInt32():
+    return int32
+def GetDeviceAttributeUInt32Array():
+    return int32
+def GetDigitalLogicFamilyPowerUpState():
+    return int32
+def GetDigitalPowerUpStates():
+    return int32
+def GetDigitalPullUpPullDownStates():
+    return int32
+def GetDisconnectedCDAQSyncPorts():
+    return int32
+def GetErrorString():
+    return int32
+def GetExportedSignalAttributeBool():
+    return int32
+def GetExportedSignalAttributeDouble():
+    return int32
+def GetExportedSignalAttributeInt32():
+    return int32
+def GetExportedSignalAttributeString():
+    return int32
+def GetExportedSignalAttributeUInt32():
+    return int32
+def GetExtendedErrorInfo():
+    return int32
+def GetFirstSampClkWhen():
+    return int32
+def GetFirstSampTimestampVal():
+    return int32
+def GetNthTaskChannel():
+    return int32
+def GetNthTaskDevice():
+    return int32
+def GetNthTaskReadChannel():
+    return int32
+def GetPersistedChanAttributeBool():
+    return int32
+def GetPersistedChanAttributeString():
+    return int32
+def GetPersistedScaleAttributeBool():
+    return int32
+def GetPersistedScaleAttributeString():
+    return int32
+def GetPersistedTaskAttributeBool():
+    return int32
+def GetPersistedTaskAttributeString():
+    return int32
+def GetPhysicalChanAttributeBool():
+    return int32
+def GetPhysicalChanAttributeBytes():
+    return int32
+def GetPhysicalChanAttributeDouble():
+    return int32
+def GetPhysicalChanAttributeDoubleArray():
+    return int32
+def GetPhysicalChanAttributeInt32():
+    return int32
+def GetPhysicalChanAttributeInt32Array():
+    return int32
+def GetPhysicalChanAttributeString():
+    return int32
+def GetPhysicalChanAttributeUInt32():
+    return int32
+def GetPhysicalChanAttributeUInt32Array():
+    return int32
+def GetReadAttributeBool():
+    return int32
+def GetReadAttributeDouble():
+    return int32
+def GetReadAttributeInt32():
+    return int32
+def GetReadAttributeString():
+    return int32
+def GetReadAttributeUInt32():
+    return int32
+def GetReadAttributeUInt64():
+    return int32
+def GetRealTimeAttributeBool():
+    return int32
+def GetRealTimeAttributeInt32():
+    return int32
+def GetRealTimeAttributeUInt32():
+    return int32
+def GetRefTrigTimestampVal():
+    return int32
+def GetScaleAttributeDouble():
+    return int32
+def GetScaleAttributeDoubleArray():
+    return int32
+def GetScaleAttributeInt32():
+    return int32
+def GetScaleAttributeString():
+    return int32
+def GetSelfCalLastDateAndTime():
+    return int32
+def GetStartTrigTimestampVal():
+    return int32
+def GetStartTrigTrigWhen():
+    return int32
+def GetSyncPulseTimeWhen():
+    return int32
+def GetSystemInfoAttributeString():
+    return int32
+def GetSystemInfoAttributeUInt32():
+    return int32
+def GetTaskAttributeBool():
+    return int32
+def GetTaskAttributeString():
+    return int32
+def GetTaskAttributeUInt32():
+    return int32
+def GetTimingAttributeBool():
+    return int32
+def GetTimingAttributeDouble():
+    return int32
+def GetTimingAttributeExBool():
+    return int32
+def GetTimingAttributeExDouble():
+    return int32
+def GetTimingAttributeExInt32():
+    return int32
+def GetTimingAttributeExString():
+    return int32
+def GetTimingAttributeExTimestamp():
+    return int32
+def GetTimingAttributeExUInt32():
+    return int32
+def GetTimingAttributeExUInt64():
+    return int32
+def GetTimingAttributeInt32():
+    return int32
+def GetTimingAttributeString():
+    return int32
+def GetTimingAttributeTimestamp():
+    return int32
+def GetTimingAttributeUInt32():
+    return int32
+def GetTimingAttributeUInt64():
+    return int32
+def GetTrigAttributeBool():
+    return int32
+def GetTrigAttributeDouble():
+    return int32
+def GetTrigAttributeDoubleArray():
+    return int32
+def GetTrigAttributeInt32():
+    return int32
+def GetTrigAttributeInt32Array():
+    return int32
+def GetTrigAttributeString():
+    return int32
+def GetTrigAttributeTimestamp():
+    return int32
+def GetTrigAttributeUInt32():
+    return int32
+def GetWatchdogAttributeBool():
+    return int32
+def GetWatchdogAttributeDouble():
+    return int32
+def GetWatchdogAttributeInt32():
+    return int32
+def GetWatchdogAttributeString():
+    return int32
+def GetWriteAttributeBool():
+    return int32
+def GetWriteAttributeDouble():
+    return int32
+def GetWriteAttributeInt32():
+    return int32
+def GetWriteAttributeString():
+    return int32
+def GetWriteAttributeUInt32():
+    return int32
+def GetWriteAttributeUInt64():
+    return int32
+def IsTaskDone():
+    return int32
+def LoadTask():
+    return int32
+def ReadAnalogF64():
+    return int32
+def ReadAnalogScalarF64():
+    return int32
+def ReadBinaryI16():
+    return int32
+def ReadBinaryI32():
+    return int32
+def ReadBinaryU16():
+    return int32
+def ReadBinaryU32():
+    return int32
+def ReadCounterF64():
+    return int32
+def ReadCounterF64Ex():
+    return int32
+def ReadCounterScalarF64():
+    return int32
+def ReadCounterScalarU32():
+    return int32
+def ReadCounterU32():
+    return int32
+def ReadCounterU32Ex():
+    return int32
+def ReadCtrFreq():
+    return int32
+def ReadCtrFreqScalar():
+    return int32
+def ReadCtrTicks():
+    return int32
+def ReadCtrTicksScalar():
+    return int32
+def ReadCtrTime():
+    return int32
+def ReadCtrTimeScalar():
+    return int32
+def ReadDigitalLines():
+    return int32
+def ReadDigitalScalarU32():
+    return int32
+def ReadDigitalU16():
+    return int32
+def ReadDigitalU32():
+    return int32
+def ReadDigitalU8():
+    return int32
+def ReadRaw():
+    return int32
+def RegisterDoneEvent():
+    return int32
+def RegisterEveryNSamplesEvent():
+    return int32
+def RegisterSignalEvent():
+    return int32
+def RemoveCDAQSyncConnection():
+    return int32
+def ReserveNetworkDevice():
+    return int32
+def ResetBufferAttribute():
+    return int32
+def ResetChanAttribute():
+    return int32
+def ResetDevice():
+    return int32
+def ResetExportedSignalAttribute():
+    return int32
+def ResetReadAttribute():
+    return int32
+def ResetRealTimeAttribute():
+    return int32
+def ResetTimingAttribute():
+    return int32
+def ResetTimingAttributeEx():
+    return int32
+def ResetTrigAttribute():
+    return int32
+def ResetWatchdogAttribute():
+    return int32
+def ResetWriteAttribute():
+    return int32
+def SaveGlobalChan():
+    return int32
+def SaveScale():
+    return int32
+def SaveTask():
+    return int32
+def SelfCal():
+    return int32
+def SelfTestDevice():
+    return int32
+def SetAIChanCalCalDate():
+    return int32
+def SetAIChanCalExpDate():
+    return int32
+def SetAnalogPowerUpStates():
+    return int32
+def SetAnalogPowerUpStatesWithOutputType():
+    return int32
+def SetArmStartTrigTrigWhen():
+    return int32
+def SetBufferAttributeUInt32():
+    return int32
+def SetCalInfoAttributeBool():
+    return int32
+def SetCalInfoAttributeDouble():
+    return int32
+def SetCalInfoAttributeString():
+    return int32
+def SetCalInfoAttributeUInt32():
+    return int32
+def SetChanAttributeBool():
+    return int32
+def SetChanAttributeDouble():
+    return int32
+def SetChanAttributeDoubleArray():
+    return int32
+def SetChanAttributeInt32():
+    return int32
+def SetChanAttributeString():
+    return int32
+def SetChanAttributeUInt32():
+    return int32
+def SetDigitalLogicFamilyPowerUpState():
+    return int32
+def SetDigitalPowerUpStates():
+    return int32
+def SetDigitalPullUpPullDownStates():
+    return int32
+def SetExportedSignalAttributeBool():
+    return int32
+def SetExportedSignalAttributeDouble():
+    return int32
+def SetExportedSignalAttributeInt32():
+    return int32
+def SetExportedSignalAttributeString():
+    return int32
+def SetExportedSignalAttributeUInt32():
+    return int32
+def SetFirstSampClkWhen():
+    return int32
+def SetReadAttributeBool():
+    return int32
+def SetReadAttributeDouble():
+    return int32
+def SetReadAttributeInt32():
+    return int32
+def SetReadAttributeString():
+    return int32
+def SetReadAttributeUInt32():
+    return int32
+def SetReadAttributeUInt64():
+    return int32
+def SetRealTimeAttributeBool():
+    return int32
+def SetRealTimeAttributeInt32():
+    return int32
+def SetRealTimeAttributeUInt32():
+    return int32
+def SetScaleAttributeDouble():
+    return int32
+def SetScaleAttributeDoubleArray():
+    return int32
+def SetScaleAttributeInt32():
+    return int32
+def SetScaleAttributeString():
+    return int32
+def SetStartTrigTrigWhen():
+    return int32
+def SetSyncPulseTimeWhen():
+    return int32
+def SetTimingAttributeBool():
+    return int32
+def SetTimingAttributeDouble():
+    return int32
+def SetTimingAttributeExBool():
+    return int32
+def SetTimingAttributeExDouble():
+    return int32
+def SetTimingAttributeExInt32():
+    return int32
+def SetTimingAttributeExString():
+    return int32
+def SetTimingAttributeExTimestamp():
+    return int32
+def SetTimingAttributeExUInt32():
+    return int32
+def SetTimingAttributeExUInt64():
+    return int32
+def SetTimingAttributeInt32():
+    return int32
+def SetTimingAttributeString():
+    return int32
+def SetTimingAttributeTimestamp():
+    return int32
+def SetTimingAttributeUInt32():
+    return int32
+def SetTimingAttributeUInt64():
+    return int32
+def SetTrigAttributeBool():
+    return int32
+def SetTrigAttributeDouble():
+    return int32
+def SetTrigAttributeDoubleArray():
+    return int32
+def SetTrigAttributeInt32():
+    return int32
+def SetTrigAttributeInt32Array():
+    return int32
+def SetTrigAttributeString():
+    return int32
+def SetTrigAttributeTimestamp():
+    return int32
+def SetTrigAttributeUInt32():
+    return int32
+def SetWatchdogAttributeBool():
+    return int32
+def SetWatchdogAttributeDouble():
+    return int32
+def SetWatchdogAttributeInt32():
+    return int32
+def SetWatchdogAttributeString():
+    return int32
+def SetWriteAttributeBool():
+    return int32
+def SetWriteAttributeDouble():
+    return int32
+def SetWriteAttributeInt32():
+    return int32
+def SetWriteAttributeString():
+    return int32
+def SetWriteAttributeUInt32():
+    return int32
+def SetWriteAttributeUInt64():
+    return int32
+def StartNewFile():
+    return int32
+def StartTask():
+    return int32
+def StopTask():
+    return int32
+def TaskControl():
+    return int32
+def TristateOutputTerm():
+    return int32
+def UnreserveNetworkDevice():
+    return int32
+def WaitForNextSampleClock():
+    return int32
+def WaitForValidTimestamp():
+    return int32
+def WaitUntilTaskDone():
+    return int32
+def WriteAnalogF64():
+    return int32
+def WriteAnalogScalarF64():
+    return int32
+def WriteBinaryI16():
+    return int32
+def WriteBinaryI32():
+    return int32
+def WriteBinaryU16():
+    return int32
+def WriteBinaryU32():
+    return int32
+def WriteCtrFreq():
+    return int32
+def WriteCtrFreqScalar():
+    return int32
+def WriteCtrTicks():
+    return int32
+def WriteCtrTicksScalar():
+    return int32
+def WriteCtrTime():
+    return int32
+def WriteCtrTimeScalar():
+    return int32
+def WriteDigitalLines():
+    return int32
+def WriteDigitalScalarU32():
+    return int32
+def WriteDigitalU16():
+    return int32
+def WriteDigitalU32():
+    return int32
+def WriteDigitalU8():
+    return int32
+def WriteRaw():
+    return int32
+def WriteToTEDSFromArray():
+    return int32
+def WriteToTEDSFromFile():
+    return int32
